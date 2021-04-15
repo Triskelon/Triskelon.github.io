@@ -1,2 +1,2 @@
-# Triskelon.github.io
-James honlap
+# Pyriel.github.io
+VGS honlap
