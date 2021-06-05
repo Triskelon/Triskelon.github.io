@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+  <title>Kapcsolat</title>
+</head>
+
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a id="vica-main" class="navbar-brand" href="#">Vica Gift Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Főoldal</a>
+
+            </li>
+            <li class="nav-item">
+              <a id="one" class="nav-link" href="about.html">Rólunk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Webshop</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Kapcsolat
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+  <main>
+    <br>
+    <section id="message-form" class="col-2">
+      <h3>Üzenetküldés</h3>
+    <form>
+      <div class="form-group">
+        <label for="userName">Név</label>
+        <input type="text" class="form-control" id="userName" aria-describedby="nameHelp">
+        
+      </div>
+      <div class="form-group">
+        <label for="userEmail">E-mail</label>
+        <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">Adatait harmadik félnek nem adjuk ki!</small>
+      </div>
+
+      <div class="form-group">
+        <label for="userMessage">Üzenet</label>
+        <textarea class="form-control" id="userMessage" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Küldés</button>
+    </form>
+  </section>
+    
+    <section id="newsletter-form">
+      <form>
+        <fieldset>
+          <legend>Hírlevél feliratkozás</legend>
+          <div class="form-group">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Adatait harmadik félnek nem adjuk ki!</small>
+          </div>
+          <div>
+            <label for="newsletter-input">Hírlevelet kérek </label>
+            <input id="newsletter" type="checkbox" name="newsletter-input" placeholder="Hírlevél">
+            <button type="submit" class="btn btn-primary">Küldés</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <div id="google">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="600"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=4440%20Tiszavasv%C3%A1ri,%20Bocskai%20u.%2012/a&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><a href="https://www.whatismyip-address.com"></a><br /><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 600px;
+            }</style>
+          <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+          <style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 600px;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">&copy; 2021 Vica Gift Shop - Minden jog fenntartva</p>
+      <p class="m-0 text-center text-white">Cím: 4440 Tiszavasvári, Bocskai u. 12/a.</p>
+      <p class="m-0 text-center text-white">Tel: 06 30 449 8415</p>
+      <p class="m-0 text-center text-white">E-mail: ?</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+</body>
+
+</html>
