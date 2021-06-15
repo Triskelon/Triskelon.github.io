@@ -297,7 +297,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
-#button1, #button2, #button3,
+#button1, #button3,
 #button4, #button5, #button6,
 #button7, #button8, #button9,
 #button10, #button11, #button12,
@@ -306,7 +306,19 @@ label {
   border:              none;
   border-radius:       5%;
   box-shadow:          2px 2px #1f1b1b;
-  color:             white;
+  color:             red;
+  padding:             15px 32px;
+  font-size:           16px;
+  margin:              10px 5px;
+  transition-duration: 1s;
+  cursor:              pointer;
+}
+
+#button2 {
+  border:              none;
+  border-radius:       5%;
+  box-shadow:          2px 2px #1f1b1b;
+  color:             blue;
   padding:             15px 32px;
   font-size:           16px;
   margin:              10px 5px;
@@ -320,10 +332,10 @@ label {
 #button10, #button11, #button12,
 #button13, #button14, #button15
  {
-  background-color: red;
+  background-color: white;
 }
 
-#button1:hover, #button2:hover, #button3:hover,
+#button1:hover, #button3:hover,
 #button4:hover, #button5:hover, #button6:hover,
 #button7:hover, #button8:hover, #button9:hover,
 #button10:hover, #button11:hover, #button12:hover,
@@ -331,6 +343,13 @@ label {
  {
   background-color: pink;
   color:            red;
+  transform:          scale(1.1);
+  box-shadow:         5px 5px #1f1b1b;
+}
+
+#button2:hover {
+  background-color: lightblue;
+  color:            blue;
   transform:          scale(1.1);
   box-shadow:         5px 5px #1f1b1b;
 }
